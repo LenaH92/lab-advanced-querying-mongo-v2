@@ -75,12 +75,11 @@ Limit: 1000
 <br>
 
 **10. All the companies that have been founded on the first seven days of the month, including the seventh. Sort them by their `acquiition price` in a descending order. Limit the search to 10 documents.**
+
+<!-- Your Query Goes Here -->
 Query: {founded_day: {$lte: 7}}
 Sort: {"acquisition.price_amount": -1}
 Limit: 10
-
-
-<!-- Your Query Goes Here -->
 
 <br>
 
